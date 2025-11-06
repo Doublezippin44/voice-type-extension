@@ -1,0 +1,9 @@
+{
+  "name": "com.voicetype.native",
+  "description": "VoiceType native host (Python)",
+  "path": "C:\\Users\\MRIDUL\\Desktop\\voice-type-extension\\native_host\\voicetype_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://<YOUR_EXTENSION_ID>/"
+  ]
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VoiceType</title>
+  <style>
+    body { font-family: Arial, sans-serif; width:300px; padding:12px; }
+    button { width:100%; padding:10px; margin:6px 0; font-size:14px; }
+    select, label { display:block; margin:6px 0; width:100%; }
+    #status { margin-top:8px; font-size:13px; color:#333; }
+  </style>
+</head>
+<body>
+  <h3>VoiceType (Native Python)</h3>
+
+  <label for="tone">Tone</label>
+  <select id="tone">
+    <option value="none">No rephrase</option>
+    <option value="casual">Casual</option>
+    <option value="formal">Formal</option>
+    <option value="friendly">Friendly</option>
+  </select>
+
+  <label><input type="checkbox" id="rephraseToggle" checked /> Slightly rephrase to chosen tone</label>
+
+  <button id="startBtn">Start Voice Typing</button>
+  <button id="stopBtn" disabled>Stop Voice Typing</button>
+
+  <div id="status">Ready.</div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
