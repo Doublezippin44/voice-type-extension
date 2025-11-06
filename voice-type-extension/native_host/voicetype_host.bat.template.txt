@@ -1,0 +1,4 @@
+@echo off
+REM Template launcher for Python host
+REM Replace "python" with full path to your python.exe if needed
+python "%~dp0voicetype_host.py"

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VoiceType Anywhere</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 15px;
+      width: 220px;
+    }
+    button {
+      padding: 10px;
+      margin: 6px;
+      width: 80%;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color: white;
+    }
+    #startBtn { background-color: #28a745; } /* green */
+    #stopBtn { background-color: #dc3545; }  /* red */
+  </style>
+</head>
+<body>
+  <h3>🎙️ VoiceType</h3>
+  <button id="startBtn">Start Listening</button><br />
+  <button id="stopBtn">Stop Listening</button>
+  <p id="statusText">Status: <span style="color:gray;">Idle</span></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

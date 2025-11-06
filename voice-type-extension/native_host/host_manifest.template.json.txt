@@ -1,0 +1,9 @@
+{
+  "name": "com.voicetype.native",
+  "description": "VoiceType native host (Python)",
+  "path": "<ABSOLUTE_PATH_TO_voicetype_host.bat>",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://neckaohjimaapfmdhlhdiionccbdpdbm/"
+  ]
+}
