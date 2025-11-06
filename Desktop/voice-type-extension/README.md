@@ -29,4 +29,23 @@ It uses:
 ---
 
 ## 🧩 Folder Structure
+voice-type-extension/
+├── manifest.json
+├── popup.html
+├── popup.js
+├── background.js
+├── content.js
+└── native_host/
+├── voicetype_host.py
+├── voicetype_host.bat.template
+├── host_manifest.template.json
+└── test_sender.py
+
+---
+
+## 🖥️ Installation Guide (Local Setup)
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Doublezippin44/voice-type-extension.git
 
